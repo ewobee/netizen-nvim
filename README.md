@@ -12,8 +12,3 @@ return {
 	end
 }
 ```
-### [pam.nvim](https://github.com/mvllow/pam.nvim)
-
-```lua
-{ source = "rose-pine/neovim", as = "rose-pine" }
-```
