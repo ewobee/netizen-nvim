@@ -1,1 +1,1 @@
-# netizen-nvim
+# Netizen lua for Neovim
