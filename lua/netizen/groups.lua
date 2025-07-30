@@ -8,14 +8,14 @@ M.setup = function()
 	NormalFloat	= { link = "Normal" }, --
 	Comment		= { fg = colors.grey, italic = true }, --
 
-	Constant	= { fg = colors.red }, --
-	Statement	= { fg = colors.green }, --
-	PreProc		= { fg = colors.orange },
+	Constant	= { fg = colors.fg1 }, --
+	Statement	= { fg = colors.red }, --
+	PreProc		= { fg = colors.fg1 },
 	Define		= { fg = colors.fg, bold = true },
 	Type		= { fg = colors.yellow },
-	String		= { fg = colors.cyan, italic = true },
+	String		= { fg = colors.green, italic = true },
 	Identifier	= { fg = colors.blue },
-	Function	= { fg = colors.blue },
+	Function	= { fg = colors.cyan },
 	Operator	= { fg = colors.fg },
 	Special		= { fg = colors.fg1 },
 	Delimiter	= { fg = colors.fg },
@@ -26,7 +26,7 @@ M.setup = function()
 	NonText		= { fg = colors.grey },
 	Directory	= { fg = colors.cyan },
 	ErrorMsg	= { fg = colors.red },
-	Search		= { fg = colors.fg0, bg = colors.dim_yellow },
+	Search		= { fg = colors.fg0, bg = colors.deep_yellow },
 	CurSearch	= { fg = colors.bg, bg = colors.yellow },
 	MoreMsg		= { fg = colors.cyan },
 	ModeMsg		= { fg = colors.green },
@@ -40,10 +40,10 @@ M.setup = function()
 
 	WarningMsg	= { fg = colors.yellow },
 	Folded		= { fg = colors.fg1, bg = colors.bg0 },
-	DiffAdd		= { fg = colors.fg0, bg = colors.dim_green, bold = true },
+	DiffAdd		= { fg = colors.fg0, bg = colors.deep_green, bold = true },
 	DiffChange	= { fg = colors.fg0, bg = colors.bg2, bold = true },
 	DiffDelete	= { fg = colors.red, bold = true },
-	DiffText	= { fg = colors.fg0, bg = colors.dim_cyan, bold = true },
+	DiffText	= { fg = colors.fg0, bg = colors.deep_cyan, bold = true },
 	SignColumn	= { fg = colors.grey },
 	Conceal		= { fg = colors.grey },
 	Added		= { fg = colors.green },
@@ -80,16 +80,16 @@ M.setup = function()
 	FloatShadow	= { bg = colors.bg2, blend = 80 },
 	FloatShadowThrough   = { bg = colors.bg2, blend = 100 },
 	MatchParen	= { bg = colors.bg0, bold = true, underline = true },
-	RedrawDebugClear     = { bg = colors.dim_yellow },
-	RedrawDebugComposed  = { bg = colors.dim_green },
-	RedrawDebugRecompose = { bg = colors.dim_red },
-	Error		= { fg = colors.fg0, bg = colors.dim_red, bold = true },
+	RedrawDebugClear     = { bg = colors.deep_yellow },
+	RedrawDebugComposed  = { bg = colors.deep_green },
+	RedrawDebugRecompose = { bg = colors.deep_red },
+	Error		= { fg = colors.fg0, bg = colors.deep_red, bold = true },
 	DiagnosticUnderlineError = { underline = true, sp = colors.red },
 	DiagnosticUnderlineWarn  = { underline = true, sp = colors.yellow },
 	DiagnosticUnderlineInfo  = { underline = true, sp = colors.cyan },
 	DiagnosticUnderlineHint  = { underline = true, sp = colors.blue },
 	DiagnosticUnderlineOk	 = { underline = true, sp = colors.green },
-	NvimInternalError	 = { fg = colors.red, bg = colors.dim_red },
+	NvimInternalError	 = { fg = colors.red, bg = colors.deep_red },
 	
 	-- ruby
 	rubyStringDelimiter		= { fg = colors.fg1 },

@@ -8,22 +8,22 @@ local TRANSPARENTS = {
 }
 
 local function apply_term_colors(colors)
-  vim.g.terminal_color_0 = colors.black
-  vim.g.terminal_color_1 = colors.red
-  vim.g.terminal_color_2 = colors.green
-  vim.g.terminal_color_3 = colors.yellow
-  vim.g.terminal_color_4 = colors.purple
-  vim.g.terminal_color_5 = colors.pink
-  vim.g.terminal_color_6 = colors.cyan
-  vim.g.terminal_color_7 = colors.white
-  vim.g.terminal_color_8 = colors.selection
-  vim.g.terminal_color_9 = colors.bright_red
-  vim.g.terminal_color_10 = colors.bright_green
-  vim.g.terminal_color_11 = colors.bright_yellow
-  vim.g.terminal_color_12 = colors.bright_blue
-  vim.g.terminal_color_13 = colors.bright_magenta
-  vim.g.terminal_color_14 = colors.bright_cyan
-  vim.g.terminal_color_15 = colors.bright_white
+  vim.g.terminal_color_0 = colors.fg0
+  vim.g.terminal_color_1 = colors.dim_red
+  vim.g.terminal_color_2 = colors.dim_green
+  vim.g.terminal_color_3 = colors.dim_yellow
+  vim.g.terminal_color_4 = colors.dim_blue
+  vim.g.terminal_color_5 = colors.dim_purle
+  vim.g.terminal_color_6 = colors.dim_cyan
+  vim.g.terminal_color_7 = colors.fg2
+  vim.g.terminal_color_8 = colors.fg1
+  vim.g.terminal_color_9 = colors.red
+  vim.g.terminal_color_10 = colors.green
+  vim.g.terminal_color_11 = colors.yellow
+  vim.g.terminal_color_12 = colors.blue
+  vim.g.terminal_color_13 = colors.purple
+  vim.g.terminal_color_14 = colors.cyan
+  vim.g.terminal_color_15 = colors.fg0
   vim.g.terminal_color_background = colors.bg
   vim.g.terminal_color_foreground = colors.fg
 end
@@ -47,8 +47,6 @@ local function apply(opts)
 end
 
 M.opts = {
-  italic_comment = false,
-  transparent = false,
 }
 
 M.setup = function(opts)
