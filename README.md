@@ -6,7 +6,7 @@
 ```lua
 -- lua/plugins/netizen.lua
 return {
-	"ewobee/netizen.mvo,",
+	"ewobee/netizen.nvim",
 	name = "netizen",
 	config = function()
 		vim.cmd("colorscheme netizen")
@@ -16,5 +16,5 @@ return {
 **Single file**
 
 ```lua
-{ "rose-pine/neovim", name = "rose-pine" }
+{ "ewobee/netizen.nvim", name = "netizen" }
 ```
