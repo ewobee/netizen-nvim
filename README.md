@@ -1,1 +1,1 @@
-# Netizen lua for Neovim
+# Netizen colorscheme lua for Neovim
